@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./assets/style/all.css" />
+  <body>
+    <div class="container">
+      <h3 class="my-3 my-lg-4 font-family">
+        <a href="index.html" class="h4 text-dark text-decoration-none"
+          >CRAFTsMAN</a
+        >
+      </h3>
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-8">
+          <!-- 麵包屑 -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white p-0 mb-lg-5 mb-4">
+              <li class="breadcrumb-item text-success">
+                Cart
+              </li>
+              <li class="breadcrumb-item text-dark">
+                Information
+              </li>
+              <li class="breadcrumb-item font-weight-600">Payment</li>
+            </ol>
+          </nav>
+          <!-- 表單 -->
+          <form class="pb-4 pb-lg-5 border-bottom border-line">
+            <div class="form-group mb-4 mb-lg-5">
+              <label for="exampleInputPassword1" class="h5">Information</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <!-- 這邊不知道要怎麼寫QQ -->
+                <option
+                  >Contact&nbsp;&nbsp;&nbsp;
+                  <span>Joanne Lin / Joanne@mail.com / +886 912-345-678</span>
+                </option>
+              </select>
+              <select
+                class="form-control border-top-0"
+                id="exampleFormControlSelect1"
+              >
+                <option
+                  >Ship to&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span
+                    >3F., No. 2, Ln. 1, Hello 2nd Rd., Woohoo Dist.,
+                    Kaohsiung…</span
+                  >
+                </option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="validationCustom03" class="h5">Credit Card</label>
+              <div class="col-12 mb-2">
+                <input
+                  type="address"
+                  class="form-control py-4"
+                  placeholder="Card number"
+                />
+              </div>
+              <div class="col-12 mb-2">
+                <input
+                  type="address"
+                  class="form-control py-4"
+                  placeholder="Name on card"
+                />
+              </div>
+              <div class="col-lg-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control py-4"
+                  id="validationCustom03"
+                  placeholder="Expiration date (MM / YY)"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-lg-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control py-4"
+                  id="validationCustom04"
+                  placeholder="Security code"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column-reverse flex-lg-row align-items-center"
+            >
+              <a
+                href="information.html"
+                class="d-flex text-success text-decoration-none"
+                ><span class="material-icons"> keyboard_arrow_left </span>Return
+                to information</a
+              >
+              <a
+                href="successful-purchase.html"
+                class="btn btn-success btn-block w-lg-50 font-weight-bold py-3 px-6 ml-lg-auto mb-4 mb-lg-0"
+              >
+                Pay now
+              </a>
+            </div>
+          </form>
+          <ul class="d-lg-flex list-none pl-0 text-primary mt-1">
+            <li class="mr-4 mb-3">Purchase Policy</li>
+            <li class="mr-4 mb-3">Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <ul class="list-none pl-0 mb-0 bg-background p-lg-5 p-3">
+            <li class="d-lg-none">
+              <a
+                href="#collapseExample"
+                class="d-flex justify-content-between text-dark font-weight-600 text-decoration-none product"
+                data-toggle="collapse"
+                data-target="#collapseExample"
+                >Order Summary
+                <h6 class="ml-auto down">NT$4,760</h6>
+                <span class="material-icons down ml-2 text-success">
+                  expand_less
+                </span>
+                <span class="material-icons up d-none text-success">
+                  expand_more
+                </span>
+              </a>
+            </li>
+            <li class="collapse d-lg-block mt-5 mt-lg-0" id="collapseExample">
+              <ul class="list-none pl-0">
+                <li class="d-flex align-items-center mb-2">
+                  <img
+                    class="information-img"
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week6/img-1.jpg"
+                    alt=""
+                  />
+                  <div class="d-flex justify-content-between w-100 ml-3">
+                    <h6 class="mb-0">Tatami Cup ×1</h6>
+                    <p class="mb-0">NT$1,080</p>
+                  </div>
+                </li>
+                <li
+                  class="d-flex align-items-center mb-2 border-bottom border-line pb-3"
+                >
+                  <img
+                    class="information-img"
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week6/img-4.jpg"
+                    alt=""
+                  />
+                  <div class="d-flex justify-content-between w-100 ml-3">
+                    <h6 class="mb-0">Baifan Bowl ×2</h6>
+                    <p class="mb-0">NT$3,600</p>
+                  </div>
+                </li>
+                <li class="d-flex justify-content-between mb-3">
+                  Subtotal <span>NT$4,680</span>
+                </li>
+                <li
+                  class="d-flex justify-content-between border-bottom border-line pb-3"
+                >
+                  Shipping <span>NT$80</span>
+                </li>
+                <li class="d-flex justify-content-between mt-3 h4">
+                  Total <span>NT$4,760</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
