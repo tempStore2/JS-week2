@@ -1,0 +1,15 @@
+.navbar-collapse {
+  transform: translateX(150%);
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.show {
+  display: block;
+  transform: translateX(0);
+  transition: all 0.8s;
+}

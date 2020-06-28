@@ -1,0 +1,21 @@
+.checkbox {
+  display: none;
+
+  &:checked {
+    + .label::before {
+      background-color: $success;
+      color: $white;
+    }
+  }
+}
+.label {
+  cursor: pointer;
+  &::before {
+    content: "\2713";
+    border: 2px solid $success;
+    border-radius: 10%;
+    padding: 0 4px;
+    margin-right: 6px;
+    color: transparent;
+  }
+}

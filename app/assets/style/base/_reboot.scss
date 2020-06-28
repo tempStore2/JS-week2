@@ -1,0 +1,18 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+sup {
+  top: -0.4em;
+  left: -0.3em;
+  font-size: 60%;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+select {
+  height: 50px !important;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+}
